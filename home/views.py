@@ -6,6 +6,7 @@ from django.shortcuts import render
 
 def home(request):
     packages = [
+	{'name':'cmsplugin-twitter', 'url': 'http://pypi.python.org/pypi/cmsplugin-twitter/1.1.2'},
 	{'name':'bootstrap_admin', 'url': 'http://pypi.python.org/pypi/bootstrap_admin/0.3.8'},
 	{'name':'aa_stripe', 'url': 'http://pypi.python.org/pypi/aa_stripe/0.4.1'},
 	{'name':'admin_bootstrap', 'url': 'http://pypi.python.org/pypi/admin_bootstrap/0.7.0'},
